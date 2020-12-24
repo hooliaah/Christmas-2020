@@ -18,3 +18,23 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+h4,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+}
+
+@media only screen and (max-width: 480px) {
+  #greeting-text,
+  #music-text {
+    padding: 0;
+  }
+}
